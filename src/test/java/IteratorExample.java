@@ -22,6 +22,7 @@ public class IteratorExample {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();;
 		driver.get("https://www.vikamshi.com");
+		
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//div[@id='fp-nav']//ul//li[7]")).click();
 		List<WebElement> footer = driver.findElements(By.xpath("//div[@class ='col-lg-3 col-md-3 col-sm-3 col-xs-12'][1]/a")); 
