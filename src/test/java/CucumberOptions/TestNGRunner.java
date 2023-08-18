@@ -7,8 +7,8 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		features="src/test/java/features",
 		glue = "test.java.stepDefinations",
-		
-		monochrome=true
+		monochrome=true,
+		plugin = ("html:target/cucumber.html")
 		
 )
 public class TestNGRunner extends AbstractTestNGCucumberTests{
