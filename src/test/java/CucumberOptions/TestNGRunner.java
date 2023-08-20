@@ -9,7 +9,10 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		features="src/test/java/features",
 		glue = "stepDefinations",
-		monochrome=true
+		monochrome=true,
+		tags="@tag1",
+		plugin = {"html:target/cucumber.html","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+		
 		
 )
 public class TestNGRunner extends AbstractTestNGCucumberTests{
