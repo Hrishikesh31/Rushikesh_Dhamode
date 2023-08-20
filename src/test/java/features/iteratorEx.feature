@@ -1,5 +1,3 @@
-
-
 Feature: Iterator_Example
 
 @Sanity
