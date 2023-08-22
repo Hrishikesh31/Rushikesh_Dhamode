@@ -1,7 +1,11 @@
 package stepDefinations;
 
+
+
 import org.openqa.selenium.By;
+
 import org.openqa.selenium.chrome.ChromeDriver;
+
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -21,7 +25,7 @@ public class LandingPage {
 	public void user_is_on_vikamshi_landing_page() throws InterruptedException {
 		testContextSetup.driver = new ChromeDriver();
 		testContextSetup.driver.manage().window().maximize();
-		testContextSetup.driver.get("https://www.vikamshi.com");	
+		testContextSetup.driver.get("https://vikamshi.com/");	
 		
 	}
 	@When("Vikmashi logo loaded")
@@ -30,6 +34,8 @@ public class LandingPage {
 		By b1 = By.cssSelector("img.animation");
 		a.waitFun(b1);
 		testContextSetup.driver.findElement(b1).getTagName();
+		
+				
 		
 	}
 	@Then("Close the browser")

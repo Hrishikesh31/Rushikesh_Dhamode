@@ -1,6 +1,6 @@
 package test.java;
 
-import java.util.ArrayList;
+
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
@@ -10,10 +10,10 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+
 //import dev.failsafe.internal.util.Assert;
 //import org.junit.*;
-import org.testng.Assert;
+
 
 public class IteratorExample {
 
@@ -21,7 +21,8 @@ public class IteratorExample {
 		// TODO Auto-generated method stub
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();;
-		driver.get("https://www.vikamshi.com");
+		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+		
 		
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//div[@id='fp-nav']//ul//li[7]")).click();

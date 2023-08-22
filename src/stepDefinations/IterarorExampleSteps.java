@@ -10,7 +10,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-
 import test.java.pageObjects.IteratorPage;
 import test.java.utils.TestContextSetup;
 
@@ -18,11 +17,11 @@ public class IterarorExampleSteps {
 	
 	List<WebElement> footer;
 	TestContextSetup testContextSetup;
-	TestContextSetup a;
+	
 	
 	public IterarorExampleSteps(TestContextSetup testContextSetup, TestContextSetup a) {
 		this.testContextSetup = testContextSetup;
-		this.a = a;
+		
 	}
 		
 	@Given("User is on Vikamshi landing page")
