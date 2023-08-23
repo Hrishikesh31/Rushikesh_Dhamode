@@ -4,6 +4,10 @@ import org.openqa.selenium.WebDriver;
 //import org.openqa.selenium.chrome.ChromeDriver;
 
 public class TestContextSetup {
+	public TestBase testBase;
 	public WebDriver driver;
-	public int a =10;
+	
+	public TestContextSetup() {
+		testBase = new TestBase();
+	}
 }
