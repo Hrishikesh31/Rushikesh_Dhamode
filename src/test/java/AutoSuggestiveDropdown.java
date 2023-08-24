@@ -1,7 +1,7 @@
 package test.java;
 
 import java.util.List;
-import java.util.Properties;
+///import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

@@ -9,11 +9,11 @@ import java.util.Properties;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import io.cucumber.java.en.And;
+//import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
-import test.java.pageObjects.AutoSuggestion;
+//import io.cucumber.java.en.When;
+//import test.java.pageObjects.AutoSuggestion;
 import test.java.utils.TestContextSetup;
 
 
