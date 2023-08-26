@@ -1,4 +1,4 @@
-/*package stepDefinations;
+package stepDefinations;
 
 
 
@@ -21,5 +21,5 @@ public class Hooks {
 public void AfterScenario() {
 	//testContextSetup.driver.close();
 }
-}*/
+}
 	
