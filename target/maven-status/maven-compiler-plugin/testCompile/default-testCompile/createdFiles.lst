@@ -1,7 +1,4 @@
-test\java\pageObjects\IteratorPage.class
+test\java\pageObjects\SearchByCategoryPageObject.class
+test\java\pageObjects\SearchBySearchFieldPageObject.class
 test\java\CucumberOptions\TestNGRunner.class
-test\java\IteratorExample.class
-test\java\pageObjects\AutoSuggestion.class
-test\java\utils\TestBase.class
-test\java\utils\TestContextSetup.class
-test\java\AutoSuggestiveDropdown.class
+test\java\pageObjects\PageObjectManager.class

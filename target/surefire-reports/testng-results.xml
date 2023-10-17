@@ -1,224 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="2" failed="3" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-24T11:15:35 IST" name="Surefire suite" finished-at="2023-08-24T11:16:07 IST" duration-ms="31348">
+  <suite started-at="2023-10-17T16:53:36 IST" name="Surefire suite" finished-at="2023-10-17T16:54:17 IST" duration-ms="40549">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.java.CucumberOptions.TestNGRunner@4c1909a3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.java.CucumberOptions.TestNGRunner@26e356f0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-08-24T11:15:35 IST" name="Surefire test" finished-at="2023-08-24T11:16:07 IST" duration-ms="31348">
+    <test started-at="2023-10-17T16:53:36 IST" name="Surefire test" finished-at="2023-10-17T16:54:17 IST" duration-ms="40549">
       <class name="test.java.CucumberOptions.TestNGRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:test.java.CucumberOptions.TestNGRunner@4c1909a3]" started-at="2023-08-24T11:15:36 IST" name="setUpClass" finished-at="2023-08-24T11:15:37 IST" duration-ms="1741" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:test.java.CucumberOptions.TestNGRunner@26e356f0]" started-at="2023-10-17T16:53:36 IST" name="setUpClass" finished-at="2023-10-17T16:53:38 IST" duration-ms="1724" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@23382f76]]>
+                <![CDATA[org.testng.TestRunner@6009bea]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.java.CucumberOptions.TestNGRunner@4c1909a3]" started-at="2023-08-24T11:15:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:16:04 IST" duration-ms="26664" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.java.CucumberOptions.TestNGRunner@26e356f0]" started-at="2023-10-17T16:53:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-17T16:54:16 IST" duration-ms="37614" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Check the content on the page is loaded or not"]]>
+                <![CDATA["Access a Product via category after applying multiple filters"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Test Landing Page"]]>
+                <![CDATA["Searching Elements"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.java.CucumberOptions.TestNGRunner@4c1909a3]" started-at="2023-08-24T11:15:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:15:58 IST" duration-ms="20724" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.java.CucumberOptions.TestNGRunner@26e356f0]" started-at="2023-10-17T16:53:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-17T16:53:58 IST" duration-ms="19687" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Test the feature of Autosuggestion Dropdown"]]>
+                <![CDATA["Access a Product via Search"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Use the Autosuggestion Dropdown"]]>
+                <![CDATA["Product Search"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.java.CucumberOptions.TestNGRunner@4c1909a3]" started-at="2023-08-24T11:15:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:16:06 IST" duration-ms="28355" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Iterate through all the footer links"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Iterator_Example"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <li>...</li> is not clickable at point (1347, 378). Other element would receive the click: <div class="loader" style="opacity: 0.046478;"></div>
-  (Session info: chrome=116.0.5845.110)
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bacaae815ed2769ba631631a06d739b7, clickElement {id=3412415230ACCCDC6B501E31AF8C75A1_element_17}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.110, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Hrishi\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49203/devtoo..., se:cdpVersion: 116.0.5845.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (bacaae815ed2769ba631631a06d739b7)] -> xpath: //div[@id='fp-nav']//ul//li[7]]
-Session ID: bacaae815ed2769ba631631a06d739b7]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <li>...</li> is not clickable at point (1347, 378). Other element would receive the click: <div class="loader" style="opacity: 0.046478;"></div>
-  (Session info: chrome=116.0.5845.110)
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bacaae815ed2769ba631631a06d739b7, clickElement {id=3412415230ACCCDC6B501E31AF8C75A1_element_17}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.110, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Hrishi\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49203/devtoo..., se:cdpVersion: 116.0.5845.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (bacaae815ed2769ba631631a06d739b7)] -> xpath: //div[@id='fp-nav']//ul//li[7]]
-Session ID: bacaae815ed2769ba631631a06d739b7
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at test.java.pageObjects.IteratorPage.clickOnFooterBtn(IteratorPage.java:39)
-at stepDefinations.IterarorExampleSteps.user_goes_to_footer_section(IterarorExampleSteps.java:40)
-at ✽.User goes to footer section(file:///E:/Selenium_Rahul_Shetty/Rahul/Selenium/src/test/java/features/iteratorEx.feature:6)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.java.CucumberOptions.TestNGRunner@4c1909a3]" started-at="2023-08-24T11:15:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:15:52 IST" duration-ms="14431" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Track"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Ecart track feature"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created
-from no such execution context: uniqueContextId not found
-  (Session info: chrome=116.0.5845.110) 
-Host info: host: 'DESKTOP-N0VQO3E', ip: '192.168.133.115'
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created
-from no such execution context: uniqueContextId not found
-  (Session info: chrome=116.0.5845.110) 
-Host info: host: 'DESKTOP-N0VQO3E', ip: '192.168.133.115'
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at stepDefinations.Ecart.user_should_be_on_ecart_tracking_page(Ecart.java:25)
-at ✽.User should be on ecart tracking page(file:///E:/Selenium_Rahul_Shetty/Rahul/Selenium/src/test/java/features/tracking.feature:6)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.java.CucumberOptions.TestNGRunner@4c1909a3]" started-at="2023-08-24T11:15:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T11:15:55 IST" duration-ms="17311" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Grab the all Values of col 4 and add"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Table Practice"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created
-from no such execution context: uniqueContextId not found
-  (Session info: chrome=116.0.5845.110) 
-Host info: host: 'DESKTOP-N0VQO3E', ip: '192.168.133.115'
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created
-from no such execution context: uniqueContextId not found
-  (Session info: chrome=116.0.5845.110) 
-Host info: host: 'DESKTOP-N0VQO3E', ip: '192.168.133.115'
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at stepDefinations.TablePract.user_should_be_on_the_practice_page(TablePract.java:28)
-at ✽.User should be on the practice page(file:///E:/Selenium_Rahul_Shetty/Rahul/Selenium/src/test/java/features/tablePractice.feature:7)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.java.CucumberOptions.TestNGRunner@4c1909a3]" started-at="2023-08-24T11:16:06 IST" name="tearDownClass" finished-at="2023-08-24T11:16:07 IST" duration-ms="1138" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.java.CucumberOptions.TestNGRunner@26e356f0]" started-at="2023-10-17T16:54:16 IST" name="tearDownClass" finished-at="2023-10-17T16:54:17 IST" duration-ms="1091" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
