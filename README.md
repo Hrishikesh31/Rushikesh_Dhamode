@@ -12,6 +12,6 @@ __Hooks__ <br />
 __Test Runner__
 
 ## Setup to run code
-__ Clone the repository using "git clone"__ <br />
-__ Run "mvn clean test" __
-__ Run "mvn test" __
+__Clone the repository using "git clone"__ <br />
+__Run "mvn clean test"__ <br />
+__Run "mvn test"__ <br />
