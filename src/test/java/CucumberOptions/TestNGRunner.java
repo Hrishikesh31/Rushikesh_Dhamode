@@ -12,7 +12,7 @@ import io.cucumber.testng.CucumberOptions;
 		features="src/test/java/features",
 		glue = "stepDefinations",
 		monochrome=true,
-		tags="~@Cat",
+		tags="",
 		plugin = {"html:target/cucumber.html","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 		
 		
