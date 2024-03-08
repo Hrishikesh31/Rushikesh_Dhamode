@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Sample File
+=======
+Rushikesh
+>>>>>>> main
