@@ -10,7 +10,7 @@ public class SearchBySearchFieldPageObject {
 	{
 		this.driver = driver;
 	}
- 
+  
 	By searchBtn = By.xpath("//input[@type=\"submit\"]");
 	By searchField = By.xpath("//input[@aria-label=\"Search for anything\"]");
 	By heading = By.xpath("//h1");

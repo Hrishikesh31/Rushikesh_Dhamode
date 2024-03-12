@@ -23,9 +23,10 @@ public class SearchByCategoryPageObject {
 		this.driver = driver;
 		
 	}
-	
-	By hov = By.xpath("//div[@class='hl-cat-nav']/ul/li[3]");
-    By sm = By.cssSelector(".hl-cat-nav__js-link[href='https://www.ebay.com/b/Cell-Phones-Smart-Watches-Accessories/15032/bn_1865441']");
+	 
+	By hov = By.cssSelector(".vl-flyout-nav.evo ul li:nth-child(3) a[_sp='p4375194.m1379.l3250']");
+    //By hov = By.cssSelector(".vl-flyout-nav.evo ul li:nth-child(3) a[_sp="p4375194.m1379.l3250"]");
+	By sm = By.cssSelector("a[_sp=\'p4375194.m1379.l3251\']");
 	By cps = By.xpath("//div[@class='dialog__cell']/section/ul/li[3]");
 	By filter = By.xpath("//button[@aria-label='All Filters']");
 	By condition = By.xpath("//div[@class='x-overlay__wrapper--left']/div/div[22]");
@@ -37,7 +38,7 @@ public class SearchByCategoryPageObject {
 	By minAmt = By.xpath("//input[@aria-label='Minimum Value, US Dollar']");
 	By maxAmt = By.xpath("//input[@aria-label='Maximum Value, US Dollar']");
 	By apply = By.xpath("//button[@aria-label='Apply']");
-	By resultFilter = By.xpath("//button[@aria-controls='s0-28_1-9-0-1[0]-0-0-6-8-4[0]-flyout']");
+	By resultFilter = By.cssSelector(".b-pageheader");
 	By heading = By.xpath("//h1");
 	
 	public By headingReturn()

@@ -1,6 +1,6 @@
  package stepDefinations;
 
-import static org.testng.Assert.assertTrue;
+import static org.testng.Assert.assertTrue; 
 import java.io.IOException;
 import org.testng.Assert;
 import io.cucumber.java.en.Given;
@@ -9,7 +9,7 @@ import io.cucumber.java.en.When;
 import test.java.pageObjects.SearchBySearchFieldPageObject;
 import utils.TestContextSetup;
 
-
+ 
 public class SearchBySearchField{
 		TestContextSetup testContextSetup;
 		public SearchBySearchFieldPageObject sBC;

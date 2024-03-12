@@ -8,7 +8,7 @@ import io.cucumber.java.en.When;
 import test.java.pageObjects.SearchByCategoryPageObject;
 import utils.TestContextSetup;
 
-
+ 
 public class SearchByCategory  {
 	
 TestContextSetup testContextSetup;
@@ -17,7 +17,7 @@ public SearchByCategoryPageObject sBC;
 public SearchByCategory(TestContextSetup testContextSetup) {
 	this.testContextSetup=testContextSetup;
 	this.sBC =testContextSetup.pageObjectManager.getSearchByCategoryPage();
-}
+} 
 
 @Given("User is on ebay.com page")
 public void user_is_on_ebay_com_page() throws InterruptedException, IOException{
@@ -79,7 +79,8 @@ public void verify_that_the_filter_applied() throws InterruptedException, IOExce
 	
 	sBC.implWait();
 	String result = sBC.getText(sBC.filterResultReturn());
-	assertTrue(result.contains("filters applied"));
+	System.out.println(result);
+	assertTrue(result.contains("1000"));
 	
 }
 }

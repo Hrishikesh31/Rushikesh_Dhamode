@@ -15,7 +15,7 @@ public class PageObjectManager {
 	{
 		this.driver = driver;
 	}
-
+ 
 	
 	
 	public SearchByCategoryPageObject getSearchByCategoryPage()

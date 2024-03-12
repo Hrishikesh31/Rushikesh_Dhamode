@@ -16,7 +16,7 @@ public class TestBase {
 	public WebDriver driver;
 	
 	public WebDriver WebDriverManager() throws IOException
-	{
+	{ 
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"//src//resources//global.properties");
 		Properties prop = new Properties();
 		prop.load(fis);
