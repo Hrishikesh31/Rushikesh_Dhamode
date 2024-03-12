@@ -29,9 +29,9 @@ public void user_is_on_ebay_com_page() throws InterruptedException, IOException{
 @When("User Navigate to search by category")
 public void user_navigate_to_search_by_category() throws InterruptedException, IOException{
 	
-	sBC.hover(sBC.hoverElementReturn());
-	Thread.sleep(1000);
-	sBC.clickMethod(sBC.smart());
+	//sBC.hover(sBC.hoverElementReturn());
+	//Thread.sleep(1000);
+	//sBC.clickMethod(sBC.smart());
 	
 }
 
