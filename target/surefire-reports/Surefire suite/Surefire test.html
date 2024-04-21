@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Mar 12 18:44:49 IST 2024</td>
+<td>Started on:</td><td>Mon Mar 25 11:26:06 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>13 seconds (13588 ms)</td>
+<tr><td>Total time:</td><td>10 seconds (10857 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,34 +76,93 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='test.java.CucumberOptions.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: test.java.CucumberOptions.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Access a Product via category after applying multiple filters", "Searching Elements"</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at stepDefinations.SearchByCategory.user_is_on_ebay_com_page(SearchByCategory.java:25)
-	at ✽.User is on ebay.com page(file:///C:/Users/hdham/Rushikesh_Dhamode/src/test/java/features/SearchByCategory.feature:6)
-... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1499277813", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1499277813'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at stepDefinations.SearchByCategory.user_is_on_ebay_com_page(SearchByCategory.java:25)
-	at ✽.User is on ebay.com page(file:///C:/Users/hdham/Rushikesh_Dhamode/src/test/java/features/SearchByCategory.feature:6)
+<td title='test.java.CucumberOptions.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: test.java.CucumberOptions.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Footer links access", "Searching Elements"</td>
+<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;User navigate to the footer links&apos; and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When(&quot;User navigate to the footer links&quot;)
+public void user_navigate_to_the_footer_links() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;Click on all the links&quot;)
+public void click_on_all_the_links() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;Open it in new tabs&quot;)
+public void open_it_in_new_tabs() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;Grab the title of each page&quot;)
+public void grab_the_title_of_each_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 7 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace651860810", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace651860810'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;User navigate to the footer links&apos; and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When(&quot;User navigate to the footer links&quot;)
+public void user_navigate_to_the_footer_links() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;Click on all the links&quot;)
+public void click_on_all_the_links() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;Open it in new tabs&quot;)
+public void open_it_in_new_tabs() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;Grab the title of each page&quot;)
+public void grab_the_title_of_each_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
 </pre></div></td>
-<td>11</td>
-<td>test.java.CucumberOptions.TestNGRunner@481a996b</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='test.java.CucumberOptions.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: test.java.CucumberOptions.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Access a Product via Search", "Product Search"</td>
-<td></td>
-<td>12</td>
+<td>8</td>
 <td>test.java.CucumberOptions.TestNGRunner@481a996b</td></tr>
 </table><p>
 </body>
