@@ -3,8 +3,11 @@ C:\Users\hdham\Rushikesh_Dhamode\src\utils\TestBase.java
 C:\Users\hdham\Rushikesh_Dhamode\src\test\java\pageObjects\PageObjectManager.java
 C:\Users\hdham\Rushikesh_Dhamode\src\utils\GenericUtils.java
 C:\Users\hdham\Rushikesh_Dhamode\src\utils\TestContextSetup.java
+C:\Users\hdham\Rushikesh_Dhamode\src\stepDefinations\FooterLinks.java
 C:\Users\hdham\Rushikesh_Dhamode\src\stepDefinations\SearchBySearchField.java
+C:\Users\hdham\Rushikesh_Dhamode\src\test\java\pageObjects\SearchByCategoryPageObject.java
+C:\Users\hdham\Rushikesh_Dhamode\src\stepDefinations\BookingOnAAI.java
+C:\Users\hdham\Rushikesh_Dhamode\src\test\java\pageObjects\BookingOnAAIPageObject.java
 C:\Users\hdham\Rushikesh_Dhamode\src\stepDefinations\Hooks.java
 C:\Users\hdham\Rushikesh_Dhamode\src\test\java\pageObjects\SearchBySearchFieldPageObject.java
 C:\Users\hdham\Rushikesh_Dhamode\src\test\java\CucumberOptions\TestNGRunner.java
-C:\Users\hdham\Rushikesh_Dhamode\src\test\java\pageObjects\SearchByCategoryPageObject.java

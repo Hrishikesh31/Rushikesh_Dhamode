@@ -1,10 +1,13 @@
 stepDefinations\SearchByCategory.class
-test\java\CucumberOptions\TestNGRunner.class
-utils\TestBase.class
+test\java\pageObjects\BookingOnAAIPageObject.class
 utils\TestContextSetup.class
-test\java\pageObjects\SearchByCategoryPageObject.class
 utils\GenericUtils.class
+stepDefinations\FooterLinks.class
 stepDefinations\Hooks.class
 stepDefinations\SearchBySearchField.class
-test\java\pageObjects\SearchBySearchFieldPageObject.class
 test\java\pageObjects\PageObjectManager.class
+test\java\CucumberOptions\TestNGRunner.class
+utils\TestBase.class
+stepDefinations\BookingOnAAI.class
+test\java\pageObjects\SearchByCategoryPageObject.class
+test\java\pageObjects\SearchBySearchFieldPageObject.class

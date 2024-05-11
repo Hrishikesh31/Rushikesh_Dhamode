@@ -23,6 +23,7 @@ public class SearchBySearchField{
 public void user_is_on_ebay_com_page() throws InterruptedException, IOException{
 	  
 	Assert.assertTrue(sBC.titleReturn().contains("eBay"));
+	
 	    
 	}
 @When("User Search using search bar")

@@ -2,12 +2,15 @@ package test.java.pageObjects;
 
 import org.openqa.selenium.WebDriver;
 
+//import stepDefinations.BookingOnAAI;
+
 
 
 public class PageObjectManager {
 
 	public SearchByCategoryPageObject sBC;
 	public SearchBySearchFieldPageObject sBSF;
+	public BookingOnAAIPageObject book;
 	public WebDriver driver;
 	
 	
@@ -30,6 +33,10 @@ public class PageObjectManager {
 		sBSF = new SearchBySearchFieldPageObject(driver);
 		return sBSF;
 	}
-	
+	public BookingOnAAIPageObject getBookingOnAAI()
+	{
+		book = new BookingOnAAIPageObject(driver);
+		return book;
+	}
 	
 }

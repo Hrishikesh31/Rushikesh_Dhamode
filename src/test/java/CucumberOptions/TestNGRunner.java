@@ -15,7 +15,7 @@ import io.cucumber.testng.CucumberOptions;
 		features="src/test/java/features",
 		glue = "stepDefinations",
 		monochrome=true,
-		tags="@footerLinks",
+		tags="@BookingonAAI",
 		plugin = {"html:target/cucumber.html","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 		 
 )
@@ -24,7 +24,7 @@ public class TestNGRunner extends AbstractTestNGCucumberTests{
 	@Override
 	@DataProvider(parallel=true)
 	public Object[][] scenarios()
-	{
+	{ 
 		return super.scenarios();
 	}
 }
